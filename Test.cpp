@@ -7,8 +7,11 @@ using namespace std;
 #define cinarr(a, n) for(int i = 0; i < n; i ++) cin >> a[i];
 #define coutarr(a, n) for(int i = 0; i < n; i ++) cout << a[i] << " "; cout("");
 
+int a, b;
+
 void solve() {
-    
+    cin >> a >> b;
+    cout << a + b << '\n';
 }
 int main() {
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
